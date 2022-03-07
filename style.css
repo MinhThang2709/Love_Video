@@ -73,31 +73,31 @@ ul {
   
 }
 li{
-  opacity: 0;
+  opacity: 1;
 }
 #a {
   position: relative;
-  left: 300px;
+  left: 100px;
    top: 100px;
  }
  #b {
   position: relative;
-  left: 200px;
-   top: 400px;
+  left: 400px;
+   top: 500px;
  }
  #c {
   position: relative;
-  left: 200px;
-   top: 120px;
+  left: 40px;
+   top: 50px;
  }
  #d {
   position: relative;
-  left: 100px;
+  left: -250px;
    top: 250px;
  }
  #e {
   position: relative;
-  left: -1000px;
-   top: 260px;
+  left: -800px;
+   top: 460px;
  }
  
