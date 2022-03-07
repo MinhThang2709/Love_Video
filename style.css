@@ -1,0 +1,103 @@
+body {
+  background: lightblue url("./imgg/a11.jpg") no-repeat fixed center;
+  
+}
+.main {
+    display: flex;
+    justify-content: center;
+  }
+  
+.text {
+  font-family: 'Sansita Swashed', cursive;
+  position: absolute;
+  margin-top: 200px;
+  color: azure;
+  font-size: 30px;
+}
+.image {
+  max-height: 650px;
+  margin: 70px;
+  max-width: 500px;
+}
+  
+.nav {
+display: flex;
+justify-content: space-between;
+width: 90%;
+min-height: 10vh;
+align-items: center;
+margin: auto;
+ }
+.nav-links  {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links li  {
+  padding: 1rem;
+  color: white;
+
+}
+
+ul {
+    flex: 1;
+
+}
+.khung {
+  display: flex;
+  justify-content: center;
+}
+
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid rgb(16, 163, 231);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+}
+
+.link-grow {
+  transform: scale(2);
+  background: rgb(16, 163, 231);
+}
+.hover-link {
+  opacity: 1;
+  color: white;
+  
+}
+li{
+  opacity: 0;
+}
+#a {
+  position: relative;
+  left: 300px;
+   top: 100px;
+ }
+ #b {
+  position: relative;
+  left: 200px;
+   top: 400px;
+ }
+ #c {
+  position: relative;
+  left: 200px;
+   top: 120px;
+ }
+ #d {
+  position: relative;
+  left: 100px;
+   top: 250px;
+ }
+ #e {
+  position: relative;
+  left: -1000px;
+   top: 260px;
+ }
+ 
