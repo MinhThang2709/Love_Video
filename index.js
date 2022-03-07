@@ -61,6 +61,6 @@ function validateText(){
   //  document.getElementById('video').innerHTML = fr
   window.location.href = "video.html";
   } else {
-    alert("chua dung dau con cho")
+    alert("Sai gòi bé ơi -_-")
   }
 }
